@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box
+}
+
+
+.slideshow-container {
+    width: 70vw;
+    position: relative;
+    margin: auto;
+    top: 13rem;
+    
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+
+
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+.message{
+    height: 40vh;
+    width: 70vw;
+}
+.pehla{
+    background: purple;
+}
+.doosra{
+    background: blue;
+}
+.teesra{
+    background: indigo;
+}
