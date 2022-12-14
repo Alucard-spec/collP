@@ -12,3 +12,21 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); 
 }
+
+
+
+
+/*
+ ! Skills Tracker
+ */
+
+let tracker={}
+let addKaro =(Skill,Course)=>{
+  if(Skill in tracker){
+      tracker[Skill].push(Course)
+  }
+  else{
+    tracker[Skill]=[]
+    tracker[Skill].push(Course)
+  }
+}
