@@ -10,11 +10,8 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); 
+  setTimeout(showSlides, 3500); 
 }
-
-
-
 
 /*
  ! Skills Tracker
@@ -30,3 +27,4 @@ let addKaro =(Skill,Course)=>{
     tracker[Skill].push(Course)
   }
 }
+
